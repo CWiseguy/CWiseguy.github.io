@@ -10,10 +10,11 @@ $(document).ready(function(){
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
     if (playerguess === computerguess ){
-    console.log("hey great job, You guess the right Number.")
+    console.log("hey great job, You guess the right Number.");
+    prompt("Do you want to play again?")
     }
       //what happens if the guess is correct?
-      prompt("Do you want to play again?")
+ 
     //if the user guessed too high...
     if (playerguess > computerguess){
       console.log("Woah your a bit high there pal")
