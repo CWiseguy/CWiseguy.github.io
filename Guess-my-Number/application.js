@@ -15,9 +15,10 @@ $(document).ready(function(){
     if (prompt("Do you want to play again?")==="yes"){
       window.open("http://cwiseguy.github.io/Guess-my-Number/index.html");
       }
-    }else(confirm "GG MATE")
+    else
+    confirm("GG MATE");
       //what happens if the guess is correct?
- 
+    }
     //if the user guessed too high...
     if (playerguess > computerguess){
       confirm ("Woah your a bit high there pal")
