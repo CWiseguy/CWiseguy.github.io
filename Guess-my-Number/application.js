@@ -9,16 +9,16 @@ $(document).ready(function(){
     console.log("the player number is: " + playerguess);
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
-    // if (playerguess === computerguess ){
-    // console.log("hey great job, You guess the right Number.");
-    // prompt("Do you want to play again?")
-    // }
-    //   //what happens if the guess is correct?
+    if (playerguess === computerguess ){
+    confirm ("hey great job, You guess the right Number.");
+    prompt("Do you want to play again?")
+    }
+      //what happens if the guess is correct?
  
-    // //if the user guessed too high...
-    // if (playerguess > computerguess){
-    //   console.log("Woah your a bit high there pal")
-    // }
+    //if the user guessed too high...
+    if (playerguess > computerguess){
+      confirm ("Woah your a bit high there pal")
+    }
   
       //update the 'feedback' paragraph to tell them to guess lower
       
