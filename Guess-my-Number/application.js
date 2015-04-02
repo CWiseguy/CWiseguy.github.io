@@ -11,8 +11,11 @@ $(document).ready(function(){
     //if the user guessed the correct number...
     if (playerguess === computerguess ){
     confirm ("hey great job, You guess the right Number.");
-    prompt("Do you want to play again?")
-    }
+    
+    if (prompt("Do you want to play again?")==="yes"){
+      window.open("http://cwiseguy.github.io/Guess-my-Number/index.html");
+      }
+    }else(confirm "GG MATE")
       //what happens if the guess is correct?
  
     //if the user guessed too high...
