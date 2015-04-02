@@ -15,7 +15,7 @@ $(document).ready(function(){
       //what happens if the guess is correct?
       prompt("Do you want to play again?")
     //if the user guessed too high...
-    if (userguess > computerguess){
+    if (playerguess > computerguess){
       console.log("Woah your a bit high there pal")
     }
   
