@@ -24,7 +24,7 @@ $(document).ready(function(){
       confirm ("Woah your a bit high there pal")
     }
   else
-  confirm ("TO LOW BROSKI");
+  confirm("TO LOW BROSKI");
       //update the 'feedback' paragraph to tell them to guess lower
       
     //otherwise, the user guessed too low...
