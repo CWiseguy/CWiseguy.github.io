@@ -10,7 +10,7 @@ $(document).ready(function(){
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
     if (playerguess === computerguess ){
-    confirm ("hey great job, You guess the right Number.");
+    confirm ("hey great job, You guess the right Number.");}
     
     if (prompt("Do you want to play again?")==="yes"){
       window.open("http://cwiseguy.github.io/Guess-my-Number/index.html");
