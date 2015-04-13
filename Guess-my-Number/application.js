@@ -12,7 +12,7 @@ $(document).ready(function(){
     if (playerguess === computerguess ){
     confirm ("hey great job, You guess the right Number.");}
     else
-    confirm (To Low Bruh)
+    confirm ("To Low Bruh");
     
     if (prompt("Do you want to play again?")==="yes"){
       window.open("http://cwiseguy.github.io/Guess-my-Number/index.html");
