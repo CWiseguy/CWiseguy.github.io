@@ -9,14 +9,7 @@ $(document).ready(function(){
     console.log("the player number is: " + playerguess);
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
-    if (playerguess === computerguess ){
-    confirm ("hey great job, You guess the right Number.");}
-    
-    if (prompt("Do you want to play again?")==="yes"){
-      window.open("http://cwiseguy.github.io/Guess-my-Number/index.html");
-      }
-    else
-    confirm("GG MATE");
+   
       //what happens if the guess is correct?
     }
     //if the user guessed too high...
@@ -25,6 +18,15 @@ $(document).ready(function(){
     }
   else
   confirm("TO LOW BROSKI");
+  
+   if (playerguess === computerguess ){
+    confirm ("hey great job, You guess the right Number.");}
+    
+    if (prompt("Do you want to play again?")==="yes"){
+      window.open("http://cwiseguy.github.io/Guess-my-Number/index.html");
+      }
+    else
+    confirm("GG MATE");
       //update the 'feedback' paragraph to tell them to guess lower
       
     //otherwise, the user guessed too low...
