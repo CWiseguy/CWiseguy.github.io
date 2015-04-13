@@ -10,9 +10,7 @@ $(document).ready(function(){
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
     if (playerguess === computerguess ){
-    confirm ("hey great job, You guess the right Number.");}
-    else
-    confirm ("To Low Bruh");
+    confirm ("hey great job, You guess the right Number.");
     
     if (prompt("Do you want to play again?")==="yes"){
       window.open("http://cwiseguy.github.io/Guess-my-Number/index.html");
@@ -25,7 +23,8 @@ $(document).ready(function(){
     if (playerguess > computerguess){
       confirm ("Woah your a bit high there pal")
     }
-  
+  else
+  confirm ("TO LOW BROSKI");
       //update the 'feedback' paragraph to tell them to guess lower
       
     //otherwise, the user guessed too low...
